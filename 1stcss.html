@@ -10,6 +10,22 @@
             color: brown;
             font-size: 20px;
         }
+        
+        #highlight {
+            color: saddlebrown;
+            font-size: 25px;
+        }
+        .bodmas {
+            background-color: aquamarine;
+            font-size: 20px;
+            width: 100px;
+        }
+
+        /* eikhane total 3ta jinish ase 
+        1. [element selectors] head a  <style> likhe tag ar nam bole value dile auto change kore dibe 
+        2.[id selectors] body te tag ar pashe id="alien" trpr head a aisha #alien diye style dite parbo 
+        3. [class selector] body te nijer ichha moto koyekta tag ar modde class="dog"
+        diye then head a aisha .dog diye o style dite parbo */
 
 
 
@@ -18,10 +34,10 @@
 
 <body>
     <h1 style="color: burlywood;">my first css project</h1>
-    <p>I am learning basic css today</p>
+    <p id="highlight">I am learning basic css today</p>
+          <!--upore paragraph tag a id = highlight use krsi karon eita akbar krle e hoy . eita use krle head tag a #highlight likhle oi para tag ar shb style dite parbo  -->
     <p style="background-color: blanchedalmond;color: blue;">today is my first day of learning</p>
-    <p>I will learn javascript 2 weeks later</p>
-
+    <p class="bodmas">I will learn javascript 2 weeks later</p>
     <ul>
         <li>leon</li>
         <li>sam</li>
@@ -30,22 +46,23 @@
     </ul>
 
     <ol>
-        <li>alu</li>
-        <li>peyaj</li>
-        <li>ada</li>
-        <li>tomato</li>
+        <li>leon</li>
+        <li>sam</li>
+        <li>rid</li>
+        <li>lam</li>
+        
     </ol>
 
 
     <ol>    
         <li>inline</li>
         <li>internal</li>
-        <li>external</li>
+        <li class="bodmas">external</li>
     </ol>
 
+<!-- upore head tag a last a <style> diye amra body jeikono tag ar style likhe change kore nite parbo . {internal tag}  -->
 
-
-
+<!-- 200px mane hoitese eita normal e thakbe bjha jabe na but 50% or 25% dile screen jodi choto ba compress kori taile amr text ar shape change hoye screen ar 25 % jayga e nite -->
 
 
 </body>
