@@ -9,4 +9,19 @@ h1{
 
 #nyc{
     color: blue;
+    display: none;
+    visibility: hidden;
+
 }
+
+
+    #mumbai{
+        font-weight: bold;
+        color: green;
+        border: 6px solid black;
+    }
+
+    #australia{
+        margin: 100px;
+        block-size: 50px;
+    }
