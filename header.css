@@ -1,3 +1,23 @@
 .bnp{
-    color: green;
+    color: rgb(197, 132, 132);
+    background-color: violet;
+    margin: 30px;
+     width: 200px; 
+     background-image: url(image/combined_image.jpg);
+     border: 10px solid rgb(245, 93, 93);
+    box-shadow: 10px 10px 30px red;
 }
+
+.leon{
+    font-size: 30px;
+    color: burlywood;
+        border: 3px solid green;
+    margin: 20px;
+    background-color: wheat;
+    box-shadow: 5px 5px 45px rgb(105, 228, 48);
+    padding: 50px;
+    background-image: url(Gemini_Generated_Image_v5ismdv5ismdv5is.png);
+    background-repeat: no-repeat;
+
+
+  }
