@@ -4,9 +4,13 @@
     margin: 30px;
      width: 200px; 
      background-image: url(image/combined_image.jpg);
+
+
      border: 10px solid rgb(245, 93, 93);
     box-shadow: 10px 10px 30px red;
 }
+
+
 
 .leon{
     font-size: 30px;
